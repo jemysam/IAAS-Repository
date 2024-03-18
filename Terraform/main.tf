@@ -1,9 +1,10 @@
 terraform {
   required_version = ">= 1.5.7"
   backend "azurerm" {
-    resource_group_name  = "tamopstfstates"
-    storage_account_name = "tamopstf111"
-    container_name       = "tfstatedevops"
+    resource_group_name  = "thomasthorntoncloud"
+    storage_account_name = "thomasthorntontfstate"
+    container_name       = "github-thomasthorntoncloud-terraform-example"
+    key                  = "github-thomasthorntoncloud-terraform-example.tfstate"
   }
 }
  
