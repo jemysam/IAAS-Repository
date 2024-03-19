@@ -4,6 +4,7 @@ terraform {
     resource_group_name  = "tamopstfstates"
     storage_account_name = "tamopstf111"
     container_name       = "tfstatedevops"
+    key                  = "nbrpwh6SVctNW3Tp5XQDvS07ykfGMaC8kcMQMkcKP7o%3D"
   }
 }
  
