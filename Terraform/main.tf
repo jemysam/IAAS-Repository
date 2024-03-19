@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.5.7"
+  required_version = "1.5.7"
   backend "azurerm" {
     resource_group_name  = "tamopstfstates"
     storage_account_name = "tamopstf111"
